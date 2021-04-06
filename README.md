@@ -7,12 +7,12 @@ The repo will create backend itself. In this way, when you or a colleague run th
 To use this as backend add the code below to your .tf file:
 
 
-*terraform {
+* terraform {
  * backend "s3" {
   *  bucket         = "my-backend-s3-bucket"
   *  key            = "terraform.tfstate"  
   *  region         = "us-east-2"
   *  dynamodb_table = "terraform_state"
  * }
-*}
+* }
 
