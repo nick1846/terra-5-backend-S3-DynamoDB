@@ -16,4 +16,5 @@ To use this as backend add the code below to your .tf file:
       }
     }
 
-
+# note 
+Create BACKEND before use this code!
